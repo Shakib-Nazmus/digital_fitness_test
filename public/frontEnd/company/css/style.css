@@ -57,14 +57,16 @@ button:hover {
 
 /* Make circles that indicate the steps of the form: */
 .step {
-  height: 15px;
+  height: 5px;
   width: 15px;
-  margin: 0 2px;
+  /* margin: 0 2px; */
   background-color: #bbbbbb;
   border: none;  
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: inline-block;
-  opacity: 0.5;
+  /* opacity: 0.5; */
+  padding: 0px;
+  margin: 0px;
 }
 
 .step.active {
